@@ -15,8 +15,8 @@ passport.deserializeUser(function (user, done) {
 
 passport.use(new GoogleOAuth({
     // OAuth 2.0 credentials
-    clientID: "189107860928-6nbbmhe7g2i5se5383hlkfjas6ppqj5m.apps.googleusercontent.com",
-    clientSecret: "NZ1URYs2DaJr9G6KYZNwIavE",
+    clientID: "Your Client ID",
+    clientSecret: "Your Client Secret",
     callbackURL: "https://monisilverback.azurewebsites.net/google/callback"
 },
     function (accessToken, refreshToken, profile, done) {
